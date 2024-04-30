@@ -4,4 +4,7 @@
 У Вас должен быть установлени node,
 вводите в корне проекта npm i для установки
 
+Запуск самого фронта через команду: ng serve
+Настройки по умолчанию в: src/assets/config.json
+
 Далее нужно установить бекенд: https://github.com/KDVMan/squeeze_calculator_backend
