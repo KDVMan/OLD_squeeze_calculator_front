@@ -1,0 +1,11 @@
+.btn-stop {
+    color: #fff;
+    background: var(--red-01);
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff;
+        background: var(--red-01-hover);
+    }
+}

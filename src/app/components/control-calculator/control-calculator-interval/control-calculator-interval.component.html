@@ -1,0 +1,9 @@
+<label>Таймфрейм</label>
+
+<app-form-select [name]="'interval'"
+				 [widthMax]="true"
+				 [items]="intervals"
+				 [item]="{key: formGroup.get('interval').value, value: formGroup.get('interval').value}"
+				 [addEmpty]="false"
+				 [allowChanged]="true"
+				 (selectEvent)="onSelect($event)"/>

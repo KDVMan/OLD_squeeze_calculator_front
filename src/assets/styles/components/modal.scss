@@ -1,0 +1,33 @@
+.custom-modal,
+.custom-modal-40,
+.custom-modal-45 {
+    min-width: 37rem;
+
+    .modal-content {
+        background-color: #F2F4F7;
+        border: 0.1rem solid var(--component-border);
+        border-radius: 0.2rem;
+        height: 40rem;
+
+        @import 'modal/modal-header';
+        @import 'modal/modal-body';
+        @import 'modal/modal-footer';
+        @import 'modal/modal-form';
+        @import 'modal/modal-table';
+        @import 'modal/modal-error';
+    }
+
+    &.modal-height-auto {
+        .modal-content {
+            height: auto;
+        }
+    }
+}
+
+.custom-modal-40 {
+    --bs-modal-width: 40rem;
+}
+
+.custom-modal-45 {
+    --bs-modal-width: 45rem;
+}

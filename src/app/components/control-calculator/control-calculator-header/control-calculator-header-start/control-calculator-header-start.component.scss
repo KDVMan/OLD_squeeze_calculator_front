@@ -1,0 +1,11 @@
+.btn-start {
+    color: #fff;
+    background: var(--blue-01);
+
+    &:hover,
+    &:focus,
+    &:active {
+        color: #fff;
+        background: var(--blue-01-hover);
+    }
+}

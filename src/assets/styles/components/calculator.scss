@@ -1,0 +1,21 @@
+.calculator {
+    padding: 0.5rem;
+
+    label {
+        display: block;
+        margin-bottom: 0.2rem;
+    }
+
+    input[type="checkbox"] {
+        &.toggle {
+            display: block;
+            margin-top: 2rem;
+        }
+    }
+
+    select[multiple] {
+        width: 100%;
+        height: 10.2rem;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,25 @@
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+
+// variables
+@import 'variables';
+
+// bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+// модули
+@import "@danielmoncada/angular-datetime-picker/assets/style/picker.min.css";
+
+// стили
+@import 'main';
+@import 'components/scrollbar';
+@import 'components/form';
+@import 'components/btn';
+@import 'components/dropdown';
+@import 'components/icon';
+@import 'components/toastr';
+@import 'components/modal';
+@import 'components/nav';
+@import 'components/progress';
+@import 'components/datetime-picker';
+@import 'components/calculator';

@@ -1,0 +1,9 @@
+<label>Направление</label>
+
+<app-form-select [name]="'tradeDirection'"
+				 [widthMax]="true"
+				 [items]="directions"
+				 [item]="{key: formGroup.get('tradeDirection').value, value: formGroup.get('tradeDirection').value}"
+				 [addEmpty]="false"
+				 [allowChanged]="true"
+				 (selectEvent)="onSelect($event)"/>

@@ -1,0 +1,33 @@
+<app-loading-spinner *ngIf="loaded === false"/>
+
+<app-loading-percent *ngIf="status === statusEnum.error" [failed]="true"></app-loading-percent>
+
+<app-control-calculator-header [formGroup]="formGroup"/>
+
+<div class="row gx-3 h-100 calculator">
+	<div class="col col-8">
+		<div class="row gx-2 gy-3">
+			<div class="col">
+				<app-control-calculator-direction [formGroup]="formGroup"/>
+			</div>
+
+			<div class="col">
+				<app-control-calculator-interval [formGroup]="formGroup"/>
+			</div>
+
+			<app-control-calculator-in [formGroup]="formGroup"/>
+			<app-control-calculator-out [formGroup]="formGroup"/>
+			<app-control-calculator-stop-time [formGroup]="formGroup"/>
+			<app-control-calculator-stop-percent [formGroup]="formGroup"/>
+		</div>
+	</div>
+
+	<div class="col">
+		<div class="row gy-3">
+			<app-control-calculator-bind [formGroup]="formGroup"/>
+			<app-control-calculator-algorithm [formGroup]="formGroup"/>
+			<app-control-calculator-iteration [formGroup]="formGroup"/>
+			<app-control-calculator-once [formGroup]="formGroup"/>
+		</div>
+	</div>
+</div>

@@ -1,0 +1,8 @@
+.progress {
+    --bs-progress-font-size: 0.7rem;
+    --bs-progress-bar-color: #fff;
+    --bs-progress-bg: #dcdcdc;
+    --bs-progress-border-radius: 0.2rem;
+    --bs-progress-bar-bg: var(--blue-01);
+    border-radius: var(--bs-progress-border-radius);
+}

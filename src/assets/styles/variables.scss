@@ -1,0 +1,29 @@
+$font-family-sans-serif: 'Roboto', sans-serif;
+$font-size-base: 0.875rem;
+$line-height-base: 1.6;
+$transition-collapse: height 0.1s ease;
+$transition-collapse-width: width 0.1s ease;
+
+:root {
+    // colors
+    --green-01: #00bf70;
+    --green-01-hover: #00af6c;
+    --green-02: #00a203;
+    --blue-01: #2a95ff;
+    --blue-01-hover: #2688e8;
+    --blue-02: #004d9d;
+    --red-01: #ff524f;
+    --red-01-hover: #d74542;
+    --red-02: #d90400;
+    --gray-01: #cbcbcb;
+    --gray-02: #eaeaea;
+    --gray-03: #dcdcdc;
+    --gray-04: #9f9f9f;
+    --gray-05: #efefef;
+    --gray-06: #7f7f7f;
+    --gray-07: #8d8d8d;
+
+    // components
+    --component-background: #fff;
+    --component-border: #cbcbcb;
+}
