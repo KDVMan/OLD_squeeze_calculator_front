@@ -39,3 +39,9 @@
 Возможные ошибки:
 
 Если на windows у Вас при запуске angular (команда: ns serve) возникает ошибка типа: PSSecurityException, то Вам нужно в командной строке ввести: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+----
+
+Разное:
+
+1) Выбирать привязки можно с зажатой клавишей Ctrl, в этом случае можно выбрать несколько прявязок
